@@ -1,15 +1,18 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Silver Bracelet
+subtitle: $150.00
+price: 150.00
+slug:  silver-bracelet
+sku:  SVB
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+date:  April 2014
+img: silver_cuff.png
+thumbnail: silver_cuff.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: 
+client: 
+category: bracelet
+description: What a lovely silver bracelet!
 
 ---

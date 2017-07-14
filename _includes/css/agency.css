@@ -18,6 +18,11 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.text-primary-option {
+    color: #{{ site.data.template.color.primary }};
+    font-size: 25px;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -269,7 +274,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/header-bg.PNG');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;

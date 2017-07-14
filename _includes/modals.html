@@ -13,24 +13,40 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
+                            <div class="text-primary-option">{{ post.subtitle }}</div>
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
+                                <!--<li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
                                     </strong>
                                 </li>
                                 <li>Date:
                                     <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
                                     </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                </li>-->
+                                <li>Category:
+                                    <strong><a href="/">{{ post.category }}</a>
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button class="snipcart-add-item"
+                            data-item-name="{{ post.name }}"
+                            data-item-id="{{ post.sku }}"
+                            data-item-image="{{ post.image }}"
+                            data-item-url="{{ site.baseurl }}"
+                            data-item-price="{{ post.price }}">
+                            Add to Cart <!--${{ post.price }}-->
+                            </button>
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                                <ul class="list-inline social-buttons">
+                                    {% for network in site.social %}
+                                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
                         </div>
                     </div>
                 </div>
