@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
- {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for product in site.products %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ product.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,11 +12,11 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <div class="text-primary-option">{{ post.subtitle }}</div>
+                            <h2>{{ product.title }}</h2>
+                            <div class="text-primary-option">{{ product.subtitle }}</div>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <img src="img/portfolio/{{ product.img }}" class="img-responsive img-centered" alt="{{ product.alt }}">
+                            <p>{{ product.description }}</p>
                             <ul class="list-inline item-details">
                                 <!--<li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
@@ -27,16 +27,16 @@
                                     </strong>
                                 </li>-->
                                 <li>Category:
-                                    <strong><a href="/">{{ post.category }}</a>
+                                    <strong><a href="/">{{ product.category }}</a>
                                     </strong>
                                 </li>
                             </ul>
                             <button class="snipcart-add-item"
-                            data-item-name="{{ post.name }}"
-                            data-item-id="{{ post.sku }}"
-                            data-item-image="{{ post.image }}"
+                            data-item-name="{{ product.name }}"
+                            data-item-id="{{ product.sku }}"
+                            data-item-image="{{ product.image }}"
                             data-item-url="{{ site.baseurl }}"
-                            data-item-price="{{ post.price }}">
+                            data-item-price="{{ product.price }}">
                             Add to Cart <!--${{ post.price }}-->
                             </button>
                         </div>
