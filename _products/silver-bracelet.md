@@ -1,14 +1,13 @@
 ---
+thumbnail: silver_cuff.png
 name: Silver Bracelet
-title: Silver Bracelet
-subtitle: $150.00
+price1: $150.00
 price: 150.00
+description: What a lovely silver bracelet!
+custom1-name: Pizza Time!
 slug:  silver-bracelet
 sku:  SVB
 layout: default
-modal-id: 6
-img: silver_cuff.png
-thumbnail: silver_cuff.png
+modal-id: 8
 category: bracelet
-description: What a lovely silver bracelet!
 ---

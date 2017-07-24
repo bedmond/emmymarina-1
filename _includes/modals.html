@@ -13,9 +13,9 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ product.title }}</h2>
-                            <div class="text-primary-option">{{ product.subtitle }}</div>
+                            <div class="text-primary-option">{{ product.price1 }}</div>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ product.img }}" class="img-responsive img-centered" alt="{{ product.alt }}">
+                            <img src="img/portfolio/{{ product.thumbnail }}" class="img-responsive img-centered" alt="{{ product.alt }}">
                             <p>{{ product.description }}</p>
                             <ul class="list-inline item-details">
                                 <!--<li>Client:
@@ -31,12 +31,15 @@
                                     </strong>
                                 </li>
                             </ul>
-                            <button class="snipcart-add-item"
+                            <button class="btn btn-primary snipcart-add-item"
                             data-item-name="{{ product.name }}"
                             data-item-id="{{ product.sku }}"
-                            data-item-image="{{ product.image }}"
+                            data-item-image="img/portfolio/{{ product.thumbnail }}"
                             data-item-url="{{ site.baseurl }}"
-                            data-item-price="{{ product.price }}">
+                            data-item-price="{{ product.price }}"
+                            data-item-custom1-required="true"
+                            data-item-custom1-name="{{ product.custom1-name }}"
+                            data-item-custom1-type="{{ product.custom1-type }}">
                             Add to Cart <!--${{ post.price }}-->
                             </button>
                         </div>

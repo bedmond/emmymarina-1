@@ -1,14 +1,14 @@
 ---
+thumbnail: silver_cuff.png
 name: Gold Bracelet
-title: Gold Bracelet
-subtitle: $150.00
+price1: $150.00
 price: 150.00
+description: What a lovely gold bracelet!
+custom1-name: Add personalization
+custom1-type: textarea
 slug:  gold-bracelet
 sku:  GB
 layout: default
 modal-id: 6
-img: silver_cuff.png
-thumbnail: silver_cuff.png
 category: bracelet
-description: What a lovely gold bracelet!
 ---

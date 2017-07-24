@@ -1,14 +1,13 @@
 ---
+thumbnail: silver_cuff.png
 name: Gold Ring
-title: Gold Ring
-subtitle: $150.00
+price1: $150.00
 price: 150.00
+description: What a lovely gold ring!
+custom1-name: Plain
 slug:  gold-ring
 sku:  GR
 layout: default
-modal-id: 6
-img: silver_cuff.png
-thumbnail: silver_cuff.png
+modal-id: 7
 category: ring
-description: What a lovely gold ring!
 ---
