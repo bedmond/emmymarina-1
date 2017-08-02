@@ -185,19 +185,19 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
-    color: rgba(247,247,247);
+    color: #999;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #aaa6ab;
+    color: #b1dae5;
 }
 
 .navbar-default .navbar-collapse {
@@ -223,7 +223,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #999;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -232,7 +232,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #aaa6ab;
+    color: #b1dae5;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -270,7 +270,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #fff;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -282,7 +282,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('/emmymarina-1/img/header-bg.PNG');
+    background-image: url('/emimarina-1/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -671,7 +671,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('/emmymarina-1/img/map-image.png');
+    background-image: url('/emimarina-1/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
