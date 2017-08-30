@@ -11,4 +11,5 @@ sku:  GB
 layout: default
 modal-id: 6
 category: bracelet
+category2: Find your size
 ---
