@@ -299,7 +299,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('/emimarina-1/img/header-bg.jpg');
+    background-image: url('/emmymarina-1/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -688,7 +688,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('/emimarina-1/img/map-image.png');
+    background-image: url('/emmymarina-1/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
