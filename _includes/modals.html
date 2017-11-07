@@ -1,0 +1,59 @@
+ <!-- Portfolio Modals -->
+ {% for product in site.products %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ product.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ product.title }}</h2>
+                            <div class="text-primary-option">{{ product.price1 }}</div>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/{{ product.thumbnail }}" class="img-responsive img-centered" alt="{{ product.alt }}">
+                            <p>{{ product.description }}</p>
+                            <ul class="list-inline item-details">
+                                <li>Sizing:
+                                    <strong><a href="/emimarina-1/">{{ product.category2 }}</a>
+                                    </strong>
+                                </li>
+                                <!--<li>Date:
+                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                    </strong>
+                                </li>-->
+                                <li>Category:
+                                    <strong><a href="/emimarina-1/">{{ product.category }}</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary snipcart-add-item"
+                            data-item-name="{{ product.name }}"
+                            data-item-id="{{ product.sku }}"
+                            data-item-image="img/portfolio/{{ product.thumbnail }}"
+                            data-item-url="{{ site.baseurl }}"
+                            data-item-price="{{ product.price }}"
+                            data-item-custom1-required="true"
+                            data-item-custom1-name="{{ product.custom1-name }}"
+                            data-item-custom1-type="{{ product.custom1-type }}">
+                            Add to Cart <!--${{ post.price }}-->
+                            </button>
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                                <ul class="list-inline social-buttons">
+                                    {% for network in site.social %}
+                                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
