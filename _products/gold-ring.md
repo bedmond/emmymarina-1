@@ -1,5 +1,5 @@
 ---
-thumbnail: silver_cuff.png
+thumbnail: placeimg_640_480_grayscale_arch copy.jpg
 name: Gold Ring
 price1: $150.00
 price: 150.00
