@@ -1,5 +1,9 @@
 ---
 thumbnail: placeimg_640_480_grayscale_arch copy.jpg
+carousel:
+  - image: slide.jpg
+  - image: slide.jpg
+  - image: slide.jpg
 name: Gold Bracelet
 price1: $150.00
 price: 150.00
