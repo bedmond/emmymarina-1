@@ -16,19 +16,18 @@
                             <h2>{{ product.title }}</h2>
                             <div class="text-primary-option">{{ product.price1 }}</div>
                             
-                            <!--Add carousel here for first go-->
+                            <!--Carousel here-->
                             {% if product.carousel %}
                             <div class="flexslider">
                                 <ul class="slides">
                                     {% for slides in product.carousel %}
-                                    <li>
+                                    <li data-thumb="img/carousel/{{ slides.image }}">
                                     <hr class="star-primary">
                                     <img src="img/carousel/{{ slides.image }}" class="img-responsive img-centered" alt="{{ product.alt }}">
                                     </li>
                                     {% endfor %}
                                 </ul>
-                            </div>
-                           
+                            </div>                           
                             {% endif %}
                             <!--{{ product.detail }}-->
                             <!--end carousel-->
