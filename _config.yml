@@ -11,6 +11,8 @@ collections:
   products:
     output: true
 
+# Google Analytics
+googletagmanager: "UA-110956704-1"
 
 # Team names, titles and social links
 people:
@@ -50,18 +52,18 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
-    url: http://instagram.com/
+    url: https://instagram.com/emimarinajewelry/
   - title: facebook
-    url:  http://instagram.com/
-  - title: twitter
-    url: http://twitter.com/
-  - title:  pinterest
-    url:  http://pinterest.com
+    url:  http://facebook.com/
+  # - title: twitter
+    # url: http://twitter.com/
+  # - title:  pinterest
+    # url:  http://pinterest.com
 
 # Postal address (add as many lines as necessary)
 address:
   - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Jacksonville, FL 32224
 
 # Build settings
 markdown: kramdown
