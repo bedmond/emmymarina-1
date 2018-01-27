@@ -291,7 +291,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/placeimg_640_480_grayscale_arch.jpg');
+    background-image: url('{{ site.baseurl }}/img/header_bangles3.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -679,10 +679,14 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #fff;
+    background-image: url('{{ site.baseurl }}/img/contact.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 section#contact .section-heading {

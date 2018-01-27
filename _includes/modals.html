@@ -21,9 +21,9 @@
                             <div class="flexslider">
                                 <ul class="slides">
                                     {% for slides in product.carousel %}
-                                    <li data-thumb="img/carousel/{{ slides.image }}">
+                                    <li data-thumb="{{ slides.image }}">
                                     <hr class="star-primary">
-                                    <img src="img/carousel/{{ slides.image }}" class="img-responsive img-centered" alt="{{ product.alt }}">
+                                    <img src="{{ slides.image }}" class="img-responsive img-centered" alt="{{ product.name }}">
                                     </li>
                                     {% endfor %}
                                 </ul>
@@ -43,17 +43,17 @@
                                     </strong>
                                 </li>
                             </ul>
-                            <button class="btn btn-primary snipcart-add-item"
+                            <!--<button class="btn btn-primary snipcart-add-item"
                             data-item-name="{{ product.name }}"
                             data-item-id="{{ product.sku }}"
-                            data-item-image="img/portfolio/{{ product.thumbnail }}"
+                            data-item-image="{{ product.thumbnail }}"
                             data-item-url="{{ site.baseurl }}"
                             data-item-price="{{ product.price }}"
                             data-item-custom1-required="true"
                             data-item-custom1-name="{{ product.custom1-name }}"
                             data-item-custom1-type="{{ product.custom1-type }}">
-                            Add to Cart <!--${{ post.price }}-->
-                            </button>
+                            Add to Cart--> <!--${{ post.price }}-->
+                            <!--</button>-->
                         </div>
 
                         <div class="col-lg-8 col-lg-offset-2">
