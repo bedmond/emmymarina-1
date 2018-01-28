@@ -118,7 +118,7 @@ html[xmlns] .flexslider .slides {
   height: 60px;
   margin: -20px 0 0;
   position: absolute;
-  top: 20%;
+  top: 50%;
   z-index: 10;
   overflow: hidden;
   opacity: 0;

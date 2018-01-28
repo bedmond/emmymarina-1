@@ -14,7 +14,7 @@ custom1-type:
 slug:  starfish-bangle
 sku:  SFB
 layout: default
-modal-id: 29
+modal-id: 34
 category: bangle
 category2:
 ---

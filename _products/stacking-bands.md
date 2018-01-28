@@ -16,7 +16,7 @@ custom1-type:
 slug:  stacking-bands
 sku:  SR
 layout: default
-modal-id: 28
+modal-id: 35
 category: band ring
 category2:
 ---
