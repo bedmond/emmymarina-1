@@ -13,7 +13,7 @@ custom1-type:
 slug:  starfish-necklace
 sku:  SFN
 layout: default
-modal-id: 30
+modal-id: 33
 category: necklace
 category2:
 ---

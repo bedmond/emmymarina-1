@@ -19,8 +19,8 @@ body {
 }
 
 .text-primary-option {
-    color: #{{ site.data.template.color.primary }};
-    font-size: 25px;
+    color: #{{ site.data.template.color.secondary-dark }};
+    font-size: 20px;
 }
 
 p {
@@ -837,8 +837,8 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .close-modal {
     position: absolute;
-    top: 25px;
-    right: 25px;
+    top: 100px;
+    right: 100px;
     width: 75px;
     height: 75px;
     background-color: transparent;
@@ -852,7 +852,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 30px;
     margin-left: 35px;
     background-color: #222;
     -webkit-transform: rotate(45deg);
@@ -863,7 +863,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
+    height: 30px;
     background-color: #222;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);

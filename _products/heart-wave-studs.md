@@ -3,7 +3,7 @@ thumbnail: "img/portfolio/heart-wave-studs/heart wave earrings.jpg"
 carousel:
   - image: "img/carousel/heart-wave-studs/1 heart wave earrings.jpg"
   - image: "img/carousel/heart-wave-studs/2 heart wave BH.jpg"
-name: Heartwave Stud Earrings
+name: Heart Wave Stud Earrings
 price1: $30.00
 price: 30.00
 description: Silver Heartwave Stud Earrings
