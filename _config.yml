@@ -6,6 +6,7 @@ baseurl: ""
 url: "emimarina.netlify.com"
 api_key: YmYxYWVjMTktOWE2OC00Yjg0LThmNDYtY2RjMDQyMWMwMTk5NjM2MzQ5NzM3NzU3NzA3NjMw
 
+
 # Collections
 collections:
   products:
