@@ -746,6 +746,79 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+section#thank-you {
+    background-color: #fff;
+    background-image: url('{{ site.baseurl }}/img/contact.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+section#thank-you.section-heading {
+    color: #fff;
+}
+
+section#thank-you .form-group {
+    margin-bottom: 25px;
+}
+
+section#thank-you .form-group input,
+section#thankyou .form-group textarea {
+    padding: 20px;
+}
+
+section#thank-you .form-group input.form-control {
+    height: auto;
+}
+
+section#thank-you .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#thank-you .form-control:focus {
+    border-color: #{{ site.data.template.color.primary }};
+    box-shadow: none;
+}
+
+section#thank-you::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#thank-you:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#thank-you::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#thank-you:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#thank-you .text-danger {
+    color: #e74c3c;
+}
+
+.hidden{
+    display:none;
+}
+
 footer {
     padding: 25px 0;
     text-align: center;
