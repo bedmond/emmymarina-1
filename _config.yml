@@ -2,8 +2,8 @@
 title: Emi Marina
 email: emimarinastudio@gmail.com
 description: "Hand-carved jewelry in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks."
-baseurl: ""
-url: "emimarina.netlify.com"
+baseurl: "https://www.emimarina.com/"
+url: ""
 api_key: YmYxYWVjMTktOWE2OC00Yjg0LThmNDYtY2RjMDQyMWMwMTk5NjM2MzQ5NzM3NzU3NzA3NjMw
 
 # Collections
@@ -15,39 +15,6 @@ collections:
 googletagmanager: "UA-110956704-1"
 
 # Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -62,8 +29,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Jacksonville, FL 32224
+  - line: 
+  - line: Jacksonville, FL
 
 # Build settings
 markdown: kramdown
