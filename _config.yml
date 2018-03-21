@@ -11,6 +11,10 @@ collections:
   products:
     output: true
 
+values:
+  layout: product
+  permalink: "/products/:title"
+
 # Google Analytics
 googletagmanager: "UA-110956704-1"
 

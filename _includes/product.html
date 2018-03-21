@@ -1,25 +1,25 @@
-<!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+<!-- Product Grid Section -->
+    <section id="product" class="bg-light-gray">
         <div class="container"></div>
             <div class="row">
             {% for product in site.products %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ product.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-4 col-sm-6 product-item">
+                    <a href="#productModal{{ product.modal-id }}" class="product-link" data-toggle="modal">
+                        <div class="product-hover">
+                            <div class="product-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
                         <img src="{{ product.thumbnail }}" class="img-responsive img-centered" alt="{{ product.name }}">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="product-caption">
                         <h4>{{ product.name }}</h4>
                         <p class="text-muted">{{ product.price1 }}</p>
                         <button class="btn btn-primary btn-sm snipcart-add-item"
                             data-item-name="{{ product.name }}"
                             data-item-id="{{ product.sku }}"
                             data-item-image="{{ product.thumbnail }}"
-                            data-item-url="{{ site.url }}/#portfolioModal{{ product.modal-id }}"
+                            data-item-url="{{ site.url }}{{ product.url }}"
                             data-item-price="{{ product.price }}"
                             data-item-custom1-required="true"
                             data-item-custom1-name="{{ product.custom1-name }}"
