@@ -12,8 +12,8 @@ weight: 60
 description: Hand-carved heart pendant in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1” pendant on 18” sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:
-slug:  medium-heart-necklace
-sku:  MHN
+slug: medium-heart-necklace
+sku: MHN
 layout: default
 modal-id: 17
 category: necklace

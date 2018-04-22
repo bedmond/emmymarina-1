@@ -13,8 +13,8 @@ weight: 60
 description: Heavy, hand-carved scallop shell pendant in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1.6” pendant on 18” sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:
-slug:  scallop-shell-necklace
-sku:  SN
+slug: scallop-shell-necklace
+sku: SN
 layout: default
 modal-id: 25
 category: necklace

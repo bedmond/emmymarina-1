@@ -12,8 +12,8 @@ weight: 60
 description: Heavy, hand-carved heart pendant in solid sterling silver on a longer length chain than the standard Big Heart necklace. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1.5” pendant on 24” sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:
-slug:  long-large-heart-necklace
-sku:  LLHN
+slug: long-large-heart-necklace
+sku: LLHN
 layout: default
 modal-id: 31
 category: necklace

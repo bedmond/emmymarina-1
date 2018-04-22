@@ -11,8 +11,8 @@ weight: 60
 description: Heavy, hand-carved infinity circle pendant in solid sterling silver on a longer length chain than the standard Infinity necklace. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1.6” pendant on 24” sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:
-slug:  long-infinity-necklace
-sku:  LIN
+slug: long-infinity-necklace
+sku: LIN
 layout: default
 modal-id: 30
 category: necklace

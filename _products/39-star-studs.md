@@ -10,8 +10,8 @@ weight: 60
 description: A pair of hand-carved star stud earrings in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Each earring is approx .4” in length. Sterling silver butterfly earring backs. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:
-slug:  star-stud-earrings
-sku:  KSE
+slug: star-stud-earrings
+sku: KSE
 layout: default
 modal-id: 15
 category: earrings

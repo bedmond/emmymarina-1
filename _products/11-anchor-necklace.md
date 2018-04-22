@@ -12,8 +12,8 @@ weight: 60
 description: Heavy, hand-carved anchor pendant in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1.5” pendant on 18” sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:
-slug:  anchor-necklace
-sku:  AN
+slug: anchor-necklace
+sku: AN
 layout: default
 modal-id: 1
 Title: Necklaces

@@ -11,8 +11,8 @@ weight: 60
 description: Hand-carved “kiss” / square cross pendant in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1/2” pendant on 16” sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:
-slug:  kiss-necklace
-sku:  KN
+slug: kiss-necklace
+sku: KN
 layout: default
 modal-id: 9
 category: necklace

@@ -12,8 +12,8 @@ weight: 60
 description: Hand-carved lightning bolt pendant in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1.25” pendant on 17.5” sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:
-slug:  lightning-bolt-necklace
-sku:  LBN
+slug: lightning-bolt-necklace
+sku: LBN
 layout: default
 modal-id: 14
 category: necklace
