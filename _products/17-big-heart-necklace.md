@@ -8,6 +8,7 @@ carousel:
 name: Big Heart Necklace
 price1: $210.00
 price: 210.00
+weight: 60
 description: Heavy, hand-carved large heart pendant in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1.5” pendant on 18” sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:

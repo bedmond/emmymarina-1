@@ -8,6 +8,7 @@ carousel:
 name: Starfish Bangle
 price1: $90.00
 price: 90.00
+weight: 60
 description: Hand-carved starfish charm in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1.5” charm on a thick, hand-forged sterling silver bangle. Each bangle is uniquely imperfect. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:

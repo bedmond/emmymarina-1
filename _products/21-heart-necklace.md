@@ -8,6 +8,7 @@ carousel:
 name: Heart Necklace
 price1: $150.00
 price: 150.00
+weight: 60
 description: Hand-carved heart pendant in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1” pendant on 18” sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:

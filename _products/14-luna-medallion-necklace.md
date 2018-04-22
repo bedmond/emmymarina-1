@@ -8,6 +8,7 @@ carousel:
 name: Luna Medallion Necklace
 price1: $210.00
 price: 210.00
+weight: 60
 description: Heavy, hand-carved moon medallion pendant in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1.4” pendant on 18” sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:

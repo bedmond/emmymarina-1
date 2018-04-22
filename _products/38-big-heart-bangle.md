@@ -8,6 +8,7 @@ carousel:
 name: Big Heart Bangle
 price1: $105.00
 price: 105.00
+weight: 60
 description: Hand-carved heart charm in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1” charm on a thick, hand-forged sterling silver bangle. Each bangle is uniquely imperfect. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:

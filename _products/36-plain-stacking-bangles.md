@@ -7,6 +7,7 @@ carousel:
 name: Plain Stacking Bangles
 price1: $50.00
 price: 50.00
+weight: 60
 description: A single, thick, hand-forged sterling silver bangle. Each bangle is uniquely imperfect. Great on its own or stacked with other plain or charm bangles. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:

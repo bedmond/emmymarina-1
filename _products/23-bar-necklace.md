@@ -8,6 +8,7 @@ carousel:
 name: Bar Necklace
 price1: $110.00
 price: 110.00
+weight: 60
 description: Hand-carved chunky bar pendant in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. May be personalized with up to 7 hand-stamped characters. Approx 1.75” long bar hangs approx 16” on sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:

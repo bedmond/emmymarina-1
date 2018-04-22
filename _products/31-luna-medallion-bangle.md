@@ -9,6 +9,7 @@ carousel:
 name: Luna Medallion Bangle
 price1: $150.00
 price: 150.00
+weight: 60
 description: Heavy, hand-carved moon medallion charm in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1.4” charm on a thick, hand-forged sterling silver bangle. Each bangle is uniquely imperfect. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:

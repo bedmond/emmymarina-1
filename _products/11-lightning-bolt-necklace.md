@@ -8,6 +8,7 @@ carousel:
 name: Lightning Bolt Necklace
 price1: $80.00
 price: 80.00
+weight: 60
 description: Hand-carved lightning bolt pendant in solid sterling silver. Embracing the beauty of imperfection with intentional distressing and maker's marks. Approx 1.25” pendant on 17.5” sterling silver Italian rolo chain with lobster clasp. Please note, any other items pictured are sold separately.
 custom1-name:
 custom1-type:
